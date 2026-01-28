@@ -1,0 +1,22 @@
+package Practice1;
+
+import java.util.Scanner;
+
+public class Ex6 {
+
+    public static void main(String[] args) {
+        Scanner cn = new Scanner(System.in);       
+
+        System.out.print("Enter a string: ");
+        String s = cn.nextLine();
+
+        System.out.print("Enter a word in string you want to replace: ");
+        String oldword = cn.nextLine();
+
+        System.out.print("Enter a word you want to replace: ");
+        String newword = cn.nextLine();
+
+        String results = s.replace(oldword, newword);
+        System.out.print("The string after replace: " + results + " ");
+    }
+}
