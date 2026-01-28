@@ -1,0 +1,16 @@
+package Practice1;
+
+import java.util.Scanner;
+
+public class Ex2 {
+
+    public static void main(String[] args) {
+        Scanner cn = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String s = cn.nextLine();
+
+        String[] words = s.trim().split("\\s+");//Theo quy uoc, \s la dai dien cho ky tu khoang cach
+        System.out.print("The number of words in a string: " + words.length + " ");
+    }
+}
