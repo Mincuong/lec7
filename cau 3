@@ -1,0 +1,16 @@
+package Practice1;
+
+import java.util.Scanner;
+
+public class Ex3 {
+
+    public static void main(String[] args) {
+        Scanner cn = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String s = cn.nextLine();
+
+        String reverse = new StringBuilder(s).reverse().toString();
+        System.out.print(reverse);
+    }
+}
