@@ -1,0 +1,17 @@
+package Practice1;
+
+import java.util.Scanner;
+
+public class Ex1 {
+
+    public static void main(String[] args) {
+        Scanner cn = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String s = cn.nextLine();
+
+        int count = s.length();
+        System.out.print("The numbers of characters is: " + count + " ");
+    }
+
+}
